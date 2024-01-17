@@ -1,3 +1,6 @@
+#usr/bin/env python3
+
+# Function definition
 def minOperations(n):
     if n <= 0:
         return 0
@@ -18,4 +21,7 @@ def minOperations(n):
 
     # Return the minimum operations needed for n characters
     return dp[n] if dp[n] != float('inf') else 0
+
+result = minOperations(n)
+print("Min # of operations to reach {} char: {}".format(n, result))
 
