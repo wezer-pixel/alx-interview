@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+"""Function validates utf-8 by running utf-8 checks on input"""
 def validUTF8(data):
     if not data:
         return False
