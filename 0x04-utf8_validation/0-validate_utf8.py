@@ -5,7 +5,7 @@ def validUTF8(data):
 	See <https://datatracker.ietf.org/doc/html/rfc3629#page-4>
 	"""
 	if not isinstance(data, list):
-	raise TypeError("Input must be a list of integers.")
+		raise TypeError("Input must be a list of integers.")
 
 	skip = 0
 	n = len(data)
