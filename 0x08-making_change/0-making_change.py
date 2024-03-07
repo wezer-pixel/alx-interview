@@ -6,17 +6,13 @@
 def makeChange(coins, total):
     """
     Returns the fewest number of coins needed to meet the total.
-
+    
     Args:
         coins (list): A list of coin denominations.
         total (int): The target total amount.
-
+    
     Returns:
-        int: The fewest number of coins needed to meet the total.
-
-    Notes:
-        - If the total is 0 or less, returns 0.
-        - If the total cannot be met by any number of coins you have, returns -1.
+        int: The fewest number of coins needed to meet the total. Returns -1 if the total cannot be met.
     """
     if not coins or coins is None:
         return -1
