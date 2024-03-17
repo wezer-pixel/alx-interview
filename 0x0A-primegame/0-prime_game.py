@@ -23,6 +23,9 @@ def generate_primes(n):
 #   because he'll be the last to choose a prime number
 # If the number of primes is odd, Maria wins                        
 def isWinner(x, nums):
+    if x < 1 or x > 10**5:
+        return None
+    
     maria_wins = 0
     ben_wins = 0
     
