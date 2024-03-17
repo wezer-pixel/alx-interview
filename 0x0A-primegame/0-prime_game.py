@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 # Sieve of Eratosthenes to find prime numbers
 def generate_primes(n):
     prime = [True for i in range(n+1)]
